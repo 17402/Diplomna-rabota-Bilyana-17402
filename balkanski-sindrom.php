@@ -1,18 +1,3 @@
-<?php
-
-// connection
-
-$connection = new PDO('mysql:host=localhost;dbname=17402', "root", "");
-
-$id = $_GET['id'];
-
-// SELECT заявка към базата
-
-$obj = $connection->prepare( 'SELECT * FROM literature WHERE id = ?' );
-$obj->execute([$id]); 
-$literature = $obj->fetch();
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

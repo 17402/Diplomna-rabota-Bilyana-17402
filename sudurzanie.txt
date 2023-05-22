@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="../css/pages-style.css">
+</head>
+<body>
+    <!--Header End-->
+    <header>    
+        <div class="container"> 
+            <div id="branding">
+                <h1>БЕЛ</h1>
+            </div>
+            <nav> 
+                <ul>
+                    <li><a href="../index.html">Начало</a></li>
+                    <li><a href="">Контакти</a></li>
+               </ul>
+            </nav>
+        </div>
+    </header>
+    <!--Header End-->
+    
+    <!--АSIDE-->
+    <aside id="content">
+            <h3 id="box-title"><a href="#top">Съдържание:</a></h3>
+        <nav>
+            <ul>
+                <li class="main"><a href="#h4-1">Автор</a></li>
+                <li class="main"><a href="#h4-2">Жанр</a></li>
+                <li class="main"><a href="#h4-3">Заглавие</a></li>
+                <li><a href="#h4-4">Тематика</a></li>
+                <li><a href="#h4-5">Проблематика</a></li>
+                <li><a href="#h4-6">Композиция</a></li>
+                <li><a href="#h4-7">Образи<a></li>
+            </ul>
+        </nav>
+    </aside>
+    <!--АSIDE END-->
+
+    <!--Sections-->
+    <section>
+        <div id="title">
+            <h1></h1>
+        </div>
+    </section>
+    <section>
+        <div id="about">
+        <h1></h1>
+        <img src="../img/" alt="">
+        <h4 id="h4-1">АВТОР</h4>
+        <p></p>
+        <br><br>
+    <h4 id="h4-2">ЖАНР</h4>
+        <p></p>
+        <br><br>
+    <h4 id="h4-3">ЗАГЛАВИЕ</h4>
+        <p> </p>
+        <br><br>
+    <h4 id="h4-4">ТЕМАТИКА</h4>
+        <p> </p>
+        <br><br>
+    <h4 id="h4-5">ПРОБЛЕМАТИКА</h4>
+        <p></p>
+        <br><br>
+    <h4 id="h4-6">КОМПОЗИЦИЯ</h4>
+        <p></p>
+        <br><br>
+    <h4 id="h4-7">ОБРАЗИ</h4>
+        <p></p>
+    
+        </div>
+    </section>
+    <!--Sections END-->
+    <!--Footer-->
+    <footer>
+
+    </footer>
+    <!--Footer End-->
+</body>
+</html>
